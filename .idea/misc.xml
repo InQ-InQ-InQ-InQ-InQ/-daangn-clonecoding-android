@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/hath8/AndroidStudioProjects/daangn-clonecoding-android/app/src/main/res/layout/activity_login.xml" value="0.30480072463768115" />
+        <entry key="..\:/Users/hath8/AndroidStudioProjects/daangn-clonecoding-android/app/src/main/res/layout/activity_register.xml" value="0.17806484295845998" />
+        <entry key="..\:/Users/hath8/AndroidStudioProjects/daangn-clonecoding-android/app/src/main/res/layout/chat_layout.xml" value="0.18489583333333334" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="jpab" />
+  </component>
+</project>
