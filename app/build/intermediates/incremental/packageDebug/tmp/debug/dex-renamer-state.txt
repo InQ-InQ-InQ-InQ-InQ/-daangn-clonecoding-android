@@ -1,4 +1,4 @@
-#Tue Aug 09 00:40:09 KST 2022
+#Tue Aug 09 09:14:03 KST 2022
 base.2=C\:\\Users\\hath8\\AndroidStudioProjects\\daangn-clonecoding-android\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\2\\classes.dex
 path.2=2/classes.dex
 base.1=C\:\\Users\\hath8\\AndroidStudioProjects\\daangn-clonecoding-android\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\0\\classes.dex

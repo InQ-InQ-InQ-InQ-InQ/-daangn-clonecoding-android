@@ -2,6 +2,7 @@ package com.example.carrotmarket_cloneproject;
 
 import android.content.Intent;
 import android.os.Bundle;
+import android.telephony.PhoneNumberFormattingTextWatcher;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
@@ -30,6 +31,7 @@ public class RegisterActivity extends AppCompatActivity {
         et_name_clear = findViewById(R.id.et_name_clear);
         et_nickname_clear = findViewById(R.id.et_nickname_clear);
         et_phone_clear = findViewById(R.id.et_phone_clear);
+        et_phone_clear.addTextChangedListener(new PhoneNumberFormattingTextWatcher());
 
         btn_register_clear = findViewById(R.id.btn_register_clear);
 
