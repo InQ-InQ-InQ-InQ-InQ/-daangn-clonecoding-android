@@ -11,7 +11,7 @@ public class RegisterRequest extends StringRequest {
     final static private String URL = "https://1af1-115-143-100-251.ngrok.io/members/join";
     private Map<String, String> map;
 
-    public RegisterRequest(String loginId, String loginPw, String name, String nickname, String phoneNumber, Response.Listener<String> listener) {
+    public RegisterRequest(String loginId, String loginPw, String name, String nickname, String phoneNumber, String city, String town, Response.Listener<String> listener) {
         super(Method.POST, URL, listener, null);
 
         map = new HashMap<>();
@@ -20,6 +20,8 @@ public class RegisterRequest extends StringRequest {
         map.put("name", name);
         map.put("nickname", nickname);
         map.put("phoneNumber", phoneNumber);
+        map.put("city", city);
+        map.put("town", town);
     }
 
     @Override
