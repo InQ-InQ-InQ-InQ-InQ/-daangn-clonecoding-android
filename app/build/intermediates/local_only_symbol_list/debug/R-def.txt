@@ -1,5 +1,6 @@
 R_DEF: Internal format may change without notice
 local
+array city
 color black
 color blue
 color colorAccent
@@ -28,6 +29,7 @@ drawable send
 id btn_login
 id btn_register
 id btn_register_clear
+id btn_test
 id button_QR
 id button_back
 id button_bell
@@ -44,15 +46,25 @@ id et_nickname_clear
 id et_password
 id et_password_clear
 id et_phone_clear
+id et_town
 id layout_chat_chatbox
 id layout_group_chat
 id logo
 id recycler_chat
+id spinner_city
+id textView
+id textView2
+id textView3
+id textView4
+id textView5
+id textView6
+id textView7
 id textView_chat_list
 id text_chat_indicator
 id toolbar_gchannel
 id view
 layout activity_login
+layout activity_login_test
 layout activity_register
 layout chat_layout
 layout fragment_chat
@@ -60,5 +72,8 @@ mipmap ic_launcher
 mipmap ic_launcher_round
 string app_name
 style Theme.Carrotmarket_cloneproject
+style Theme.Carrotmarket_cloneproject.AppBarOverlay
+style Theme.Carrotmarket_cloneproject.NoActionBar
+style Theme.Carrotmarket_cloneproject.PopupOverlay
 xml backup_rules
 xml data_extraction_rules

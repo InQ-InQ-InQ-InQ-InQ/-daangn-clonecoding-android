@@ -37,9 +37,10 @@ public class LoginActivity extends AppCompatActivity {
                 String userId = et_id.getText().toString();
                 String userPw = et_password.getText().toString();
 
-                Intent intent = new Intent(LoginActivity.this, Activity_chat.class);
-                startActivity(intent);
-                finish();
+//                1차 로그인 액티비티 테스트코드
+//                Intent intent = new Intent(LoginActivity.this, LoginTestActivity.class);
+//                startActivity(intent);
+//                finish();
 
                 Response.Listener<String> responseListener = new Response.Listener<String>() {
                     @Override
@@ -52,7 +53,7 @@ public class LoginActivity extends AppCompatActivity {
                                 String userId = jsonObject.getString("userId");
                                 String userPw = jsonObject.getString("userPw");
 
-                                Intent intent = new Intent(LoginActivity.this, RegisterActivity.class);
+                                Intent intent = new Intent(LoginActivity.this, LoginTestActivity.class);
                                 intent.putExtra("userId", userId);
                                 intent.putExtra("userPw", userPw);
                                 startActivity(intent);
@@ -69,8 +70,6 @@ public class LoginActivity extends AppCompatActivity {
                 LoginRequest loginRequest = new LoginRequest(userId, userPw, responseListener);
                 RequestQueue queue = Volley.newRequestQueue(LoginActivity.this);
                 queue.add(loginRequest);
-
-
             }
         });
 
@@ -79,7 +78,6 @@ public class LoginActivity extends AppCompatActivity {
             public void onClick(View view) {
                 Intent intent = new Intent(LoginActivity.this, RegisterActivity.class);
                 startActivity(intent);
-                finish();
             }
         });
     }
