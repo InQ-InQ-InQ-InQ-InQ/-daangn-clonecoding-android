@@ -4,8 +4,8 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="..\:/Users/hath8/AndroidStudioProjects/daangn-clonecoding-android/app/src/main/res/layout/activity_login.xml" value="0.30480072463768115" />
-        <entry key="..\:/Users/hath8/AndroidStudioProjects/daangn-clonecoding-android/app/src/main/res/layout/activity_register.xml" value="0.1" />
-        <entry key="..\:/Users/hath8/AndroidStudioProjects/daangn-clonecoding-android/app/src/main/res/layout/chat_layout.xml" value="0.18489583333333334" />
+        <entry key="..\:/Users/hath8/AndroidStudioProjects/daangn-clonecoding-android/app/src/main/res/layout/activity_register.xml" value="0.25" />
+        <entry key="..\:/Users/hath8/AndroidStudioProjects/daangn-clonecoding-android/app/src/main/res/layout/chat_layout.xml" value="0.5" />
       </map>
     </option>
   </component>

@@ -34,11 +34,11 @@ public class LoginActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
 
-                String userId = et_id.getText().toString();
-                String userPw = et_password.getText().toString();
+                String loginId = et_id.getText().toString();
+                String loginPw = et_password.getText().toString();
 
 //                1차 로그인 액티비티 테스트코드
-//                Intent intent = new Intent(LoginActivity.this, LoginTestActivity.class);
+//                Intent intent = new Intent(LoginActivity.this, Activity_chat.class);
 //                startActivity(intent);
 //                finish();
 
@@ -50,12 +50,12 @@ public class LoginActivity extends AppCompatActivity {
                             boolean success = jsonObject.getBoolean("suc");
                             if (success) {
                                 Toast.makeText(getApplicationContext(), "로그인 성공", Toast.LENGTH_LONG).show();
-                                String userId = jsonObject.getString("userId");
-                                String userPw = jsonObject.getString("userPw");
+//                                String loginId = jsonObject.getString("loginId");
+//                                String loginPw = jsonObject.getString("loginPw");
 
                                 Intent intent = new Intent(LoginActivity.this, LoginTestActivity.class);
-                                intent.putExtra("userId", userId);
-                                intent.putExtra("userPw", userPw);
+//                                intent.putExtra("loginId", loginId);
+//                                intent.putExtra("loginPw", loginPw);
                                 startActivity(intent);
                                 finish();
                             } else {
@@ -67,7 +67,7 @@ public class LoginActivity extends AppCompatActivity {
                         }
                     }
                 };
-                LoginRequest loginRequest = new LoginRequest(userId, userPw, responseListener);
+                LoginRequest loginRequest = new LoginRequest(loginId, loginPw, responseListener);
                 RequestQueue queue = Volley.newRequestQueue(LoginActivity.this);
                 queue.add(loginRequest);
             }
