@@ -13,12 +13,12 @@ public class LoginRequest extends StringRequest {
     final static private String URL = "서버 URL";
     private Map<String, String> map;
 
-    public LoginRequest(String id, String pw, Response.Listener<String> listener) {
+    public LoginRequest(String userId, String userPw, Response.Listener<String> listener) {
         super(Method.POST, URL, listener, null);
 
         map = new HashMap<>();
-        map.put("id", id);
-        map.put("pw", pw);
+        map.put("userId", userId);
+        map.put("userPw", userPw);
     }
 
     @Nullable
