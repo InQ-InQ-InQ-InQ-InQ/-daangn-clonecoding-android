@@ -9,6 +9,14 @@ import android.widget.Button;
 import android.widget.TextView;
 
 public class LoginTestActivity extends AppCompatActivity {
+/*
+    로그인 하고 나서
+    내 정보들 넘어오나 테스트 하려고 만든 액티비티
+
+    일단 지금 당장은 안해보고 필요한 정보 생기면 바로 적용하면 될듯
+    은찬이가 수정은 금방 한다 했음
+
+ */
 
     TextView viewId, viewPw, viewName, viewNickname, viewPhone, viewCity, viewTown;
     Button btn_test;
