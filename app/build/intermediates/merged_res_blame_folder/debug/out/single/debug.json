@@ -4,12 +4,12 @@
         "source": "C:\\Users\\hath8\\.gradle\\daemon\\7.3.3\\com.example.carrotmarket_cloneproject.app-main-31:\\drawable-v24\\qr_scan.png"
     },
     {
-        "merged": "com.example.carrotmarket_cloneproject.app-merged_res-29:/layout_activity_login_test.xml.flat",
-        "source": "com.example.carrotmarket_cloneproject.app-main-31:/layout/activity_login_test.xml"
-    },
-    {
         "merged": "C:\\Users\\hath8\\.gradle\\daemon\\7.3.3\\com.example.carrotmarket_cloneproject.app-merged_res-29:\\layout_chat_layout.xml.flat",
         "source": "C:\\Users\\hath8\\.gradle\\daemon\\7.3.3\\com.example.carrotmarket_cloneproject.app-main-31:\\layout\\chat_layout.xml"
+    },
+    {
+        "merged": "com.example.carrotmarket_cloneproject.app-merged_res-29:/layout_activity_register.xml.flat",
+        "source": "com.example.carrotmarket_cloneproject.app-main-31:/layout/activity_register.xml"
     },
     {
         "merged": "C:\\Users\\hath8\\.gradle\\daemon\\7.3.3\\com.example.carrotmarket_cloneproject.app-merged_res-29:\\mipmap-xxxhdpi_ic_launcher_round.webp.flat",

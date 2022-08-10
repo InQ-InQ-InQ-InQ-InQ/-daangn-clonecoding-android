@@ -47,7 +47,7 @@ public class RegisterActivity extends AppCompatActivity {
         spinner_city.setOnItemSelectedListener(new AdapterView.OnItemSelectedListener() {
             @Override
             public void onItemSelected(AdapterView<?> adapterView, View view, int i, long l) {
-                //String selected_city = spinner_city.getItemAtPosition(i).toString();
+                spinner_city.getItemAtPosition(i).toString();
             }
             @Override
             public void onNothingSelected(AdapterView<?> adapterView) {
@@ -73,7 +73,7 @@ public class RegisterActivity extends AppCompatActivity {
                     public void onResponse(String response) {
                         try {
                             JSONObject jsonObject = new JSONObject(response);
-                            boolean success = jsonObject.getBoolean("success");
+                            boolean success = jsonObject.getBoolean("suc");
                             if (success) {
                                 Toast.makeText(getApplicationContext(), "회원가입 성공", Toast.LENGTH_LONG).show();
                                 Intent intent = new Intent(RegisterActivity.this, LoginActivity.class);
@@ -81,7 +81,7 @@ public class RegisterActivity extends AppCompatActivity {
                                 finish();
                             } else {
                                 Toast.makeText(getApplicationContext(), "회원가입 실패", Toast.LENGTH_LONG).show();
-                                //return;
+                                return;
                             }
                         } catch (JSONException e) {
                             e.printStackTrace();

@@ -10,7 +10,7 @@ import java.util.HashMap;
 import java.util.Map;
 
 public class LoginRequest extends StringRequest {
-    final static private String URL = "서버 URL";
+    final static private String URL = "https://d3b1-210-103-3-198.ngrok.io/";
     private Map<String, String> map;
 
     public LoginRequest(String userId, String userPw, Response.Listener<String> listener) {

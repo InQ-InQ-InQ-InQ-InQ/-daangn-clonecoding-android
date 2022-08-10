@@ -4,12 +4,8 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="..\:/Users/hath8/AndroidStudioProjects/daangn-clonecoding-android/app/src/main/res/layout/activity_login.xml" value="0.30480072463768115" />
-        <entry key="..\:/Users/hath8/AndroidStudioProjects/daangn-clonecoding-android/app/src/main/res/layout/activity_login_test.xml" value="0.5" />
-        <entry key="..\:/Users/hath8/AndroidStudioProjects/daangn-clonecoding-android/app/src/main/res/layout/activity_register.xml" value="0.33" />
+        <entry key="..\:/Users/hath8/AndroidStudioProjects/daangn-clonecoding-android/app/src/main/res/layout/activity_register.xml" value="0.1" />
         <entry key="..\:/Users/hath8/AndroidStudioProjects/daangn-clonecoding-android/app/src/main/res/layout/chat_layout.xml" value="0.18489583333333334" />
-        <entry key="..\:/Users/hath8/AndroidStudioProjects/daangn-clonecoding-android/app/src/main/res/layout/content_login_test.xml" value="0.2128623188405797" />
-        <entry key="..\:/Users/hath8/AndroidStudioProjects/daangn-clonecoding-android/app/src/main/res/layout/fragment_first.xml" value="0.29635416666666664" />
-        <entry key="..\:/Users/hath8/AndroidStudioProjects/daangn-clonecoding-android/app/src/main/res/layout/fragment_second.xml" value="0.29635416666666664" />
       </map>
     </option>
   </component>
