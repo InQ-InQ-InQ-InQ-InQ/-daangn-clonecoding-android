@@ -37,7 +37,7 @@ public class LoginActivity extends AppCompatActivity {
                 String id = et_id.getText().toString();
                 String pw = et_password.getText().toString();
 
-                Intent intent = new Intent(LoginActivity.this, Activity_chat.class);
+                Intent intent = new Intent(LoginActivity.this, MainActivity.class);
                 startActivity(intent);
                 finish();
                 /*
