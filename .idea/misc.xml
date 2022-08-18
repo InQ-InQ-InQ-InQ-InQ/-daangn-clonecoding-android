@@ -3,9 +3,32 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/Desktop/AndroidStudioProjects/daangn-clonecoding-android/app/src/main/res/layout/activity_login.xml" value="0.36614583333333334" />
+        <entry key="..\:/Users/Desktop/AndroidStudioProjects/daangn-clonecoding-android/app/src/main/res/layout/activity_register.xml" value="0.36614583333333334" />
+        <entry key="..\:/Users/Desktop/AndroidStudioProjects/daangn-clonecoding-android/app/src/main/res/layout/activity_search_location.xml" value="0.36614583333333334" />
+        <entry key="..\:/Users/Desktop/AndroidStudioProjects/daangn-clonecoding-android/app/src/main/res/layout/chat_layout.xml" value="0.36614583333333334" />
+        <entry key="..\:/Users/Desktop/AndroidStudioProjects/daangn-clonecoding-android/app/src/main/res/layout/fragment_chat.xml" value="0.36614583333333334" />
+        <entry key="..\:/Users/Desktop/AndroidStudioProjects/daangn-clonecoding-android/app/src/main/res/layout/fragment_home.xml" value="0.36614583333333334" />
+        <entry key="..\:/Users/Desktop/AndroidStudioProjects/daangn-clonecoding-android/app/src/main/res/layout/fragment_my_carrot.xml" value="0.33" />
+        <entry key="..\:/Users/Desktop/AndroidStudioProjects/daangn-clonecoding-android/app/src/main/res/layout/fragment_nearby.xml" value="0.36614583333333334" />
+        <entry key="..\:/Users/Desktop/AndroidStudioProjects/daangn-clonecoding-android/app/src/main/res/layout/fragment_town_life.xml" value="0.36614583333333334" />
         <entry key="..\:/Users/hath8/AndroidStudioProjects/daangn-clonecoding-android/app/src/main/res/layout/activity_login.xml" value="0.30480072463768115" />
         <entry key="..\:/Users/hath8/AndroidStudioProjects/daangn-clonecoding-android/app/src/main/res/layout/activity_register.xml" value="0.17806484295845998" />
         <entry key="..\:/Users/hath8/AndroidStudioProjects/daangn-clonecoding-android/app/src/main/res/layout/chat_layout.xml" value="0.18489583333333334" />
+        <entry key="..\:/Users/njsha/AndroidStudioProjects/daangn-clonecoding-android/app/src/main/res/drawable/ic_launcher_background.xml" value="0.151" />
+        <entry key="..\:/Users/njsha/AndroidStudioProjects/daangn-clonecoding-android/app/src/main/res/layout/activity_login.xml" value="0.24537037037037038" />
+        <entry key="..\:/Users/njsha/AndroidStudioProjects/daangn-clonecoding-android/app/src/main/res/layout/activity_main.xml" value="0.24537037037037038" />
+        <entry key="..\:/Users/njsha/AndroidStudioProjects/daangn-clonecoding-android/app/src/main/res/layout/activity_register.xml" value="0.25" />
+        <entry key="..\:/Users/njsha/AndroidStudioProjects/daangn-clonecoding-android/app/src/main/res/layout/activity_sale.xml" value="0.152" />
+        <entry key="..\:/Users/njsha/AndroidStudioProjects/daangn-clonecoding-android/app/src/main/res/layout/activity_search_location.xml" value="0.2353846153846154" />
+        <entry key="..\:/Users/njsha/AndroidStudioProjects/daangn-clonecoding-android/app/src/main/res/layout/activity_start.xml" value="0.2" />
+        <entry key="..\:/Users/njsha/AndroidStudioProjects/daangn-clonecoding-android/app/src/main/res/layout/chat_layout.xml" value="0.24537037037037038" />
+        <entry key="..\:/Users/njsha/AndroidStudioProjects/daangn-clonecoding-android/app/src/main/res/layout/fragment_chat.xml" value="0.24537037037037038" />
+        <entry key="..\:/Users/njsha/AndroidStudioProjects/daangn-clonecoding-android/app/src/main/res/layout/fragment_chatting.xml" value="0.2353846153846154" />
+        <entry key="..\:/Users/njsha/AndroidStudioProjects/daangn-clonecoding-android/app/src/main/res/layout/fragment_home.xml" value="0.24537037037037038" />
+        <entry key="..\:/Users/njsha/AndroidStudioProjects/daangn-clonecoding-android/app/src/main/res/layout/fragment_my_carrot.xml" value="0.264" />
+        <entry key="..\:/Users/njsha/AndroidStudioProjects/daangn-clonecoding-android/app/src/main/res/layout/fragment_nearby.xml" value="0.1840277777777778" />
+        <entry key="..\:/Users/njsha/AndroidStudioProjects/daangn-clonecoding-android/app/src/main/res/layout/fragment_town_life.xml" value="0.2353846153846154" />
       </map>
     </option>
   </component>
