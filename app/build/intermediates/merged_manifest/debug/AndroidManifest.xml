@@ -22,6 +22,9 @@
         android:testOnly="true"
         android:theme="@style/Theme.Carrotmarket_cloneproject" >
         <activity
+            android:name="com.example.carrotmarket_cloneproject.SaleActivity"
+            android:exported="false" />
+        <activity
             android:name="com.example.carrotmarket_cloneproject.MainActivity"
             android:exported="false" />
         <activity
@@ -38,8 +41,7 @@
         </activity>
         <activity
             android:name="com.example.carrotmarket_cloneproject.LoginActivity"
-            android:exported="true" >
-        </activity>
+            android:exported="true" />
         <activity android:name="com.example.carrotmarket_cloneproject.Activity_chat" />
         <activity android:name="com.example.carrotmarket_cloneproject.RegisterActivity" />
 

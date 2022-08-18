@@ -1663,6 +1663,7 @@ int color mtrl_textinput_focused_box_stroke_color 0x7f05023d
 int color mtrl_textinput_hovered_box_stroke_color 0x7f05023e
 int color notification_action_color_filter 0x7f05023f
 int color notification_icon_bg_color 0x7f050240
+int color pantone 0x7f050262
 int color primary_dark_material_dark 0x7f050241
 int color primary_dark_material_light 0x7f050242
 int color primary_material_dark 0x7f050243
@@ -2365,6 +2366,7 @@ int drawable abc_textfield_search_material 0x7f070054
 int drawable abc_vector_test 0x7f070055
 int drawable avd_hide_password 0x7f070056
 int drawable avd_show_password 0x7f070057
+int drawable back_reverse 0x7f0700a6
 int drawable bell 0x7f070058
 int drawable btn_checkbox_checked_mtrl 0x7f070059
 int drawable btn_checkbox_checked_to_unchecked_mtrl_animation 0x7f07005a
@@ -2392,6 +2394,11 @@ int drawable ic_mtrl_checked_circle 0x7f07006f
 int drawable ic_mtrl_chip_checked_black 0x7f070070
 int drawable ic_mtrl_chip_checked_circle 0x7f070071
 int drawable ic_mtrl_chip_close_circle 0x7f070072
+int drawable ic_user_profile_placeholder 0x7f0700a7
+int drawable ic_write_sale 0x7f0700a8
+int drawable icon_sales 0x7f0700a9
+int drawable img 0x7f0700aa
+int drawable img_1 0x7f0700ab
 int drawable logo 0x7f070073
 int drawable logo_transparent 0x7f070074
 int drawable m3_appbar_background 0x7f070075
@@ -2435,8 +2442,10 @@ int drawable notification_template_icon_bg 0x7f07009a
 int drawable notification_template_icon_low_bg 0x7f07009b
 int drawable notification_tile_bg 0x7f07009c
 int drawable notify_panel_notification_icon_bg 0x7f07009d
+int drawable option 0x7f0700ac
 int drawable phone_call 0x7f07009e
 int drawable plus 0x7f07009f
+int drawable profile 0x7f0700ad
 int drawable qr_scan 0x7f0700a0
 int drawable send 0x7f0700a1
 int drawable test_custom_background 0x7f0700a2
@@ -2448,6 +2457,7 @@ int id BOTTOM_END 0x7f080001
 int id BOTTOM_START 0x7f080002
 int id CTRL 0x7f080003
 int id FUNCTION 0x7f080004
+int id ImageView_profile 0x7f0801e0
 int id META 0x7f080005
 int id NO_DEBUG 0x7f080006
 int id SHIFT 0x7f080007
@@ -2457,6 +2467,8 @@ int id SHOW_PROGRESS 0x7f08000a
 int id SYM 0x7f08000b
 int id TOP_END 0x7f08000c
 int id TOP_START 0x7f08000d
+int id TextView_userLocation 0x7f0801e1
+int id TextView_userName 0x7f0801e2
 int id accelerate 0x7f08000e
 int id accessibility_action_clickable_span 0x7f08000f
 int id accessibility_custom_action_0 0x7f080010
@@ -2517,6 +2529,8 @@ int id all 0x7f080046
 int id always 0x7f080047
 int id animateToEnd 0x7f080048
 int id animateToStart 0x7f080049
+int id appLayout_my_carrot 0x7f0801e3
+int id appLayout_sale 0x7f0801e4
 int id arc 0x7f08004a
 int id asConfigured 0x7f08004b
 int id async 0x7f08004c
@@ -2542,8 +2556,13 @@ int id button_bell 0x7f08005f
 int id button_call 0x7f080060
 int id button_chat_menu 0x7f080061
 int id button_chat_send 0x7f080062
+int id button_complete 0x7f0801e5
 int id button_nickname 0x7f080063
+int id button_option 0x7f0801e6
 int id button_plus 0x7f080064
+int id button_purchase_list 0x7f0801e7
+int id button_sales_list 0x7f0801e8
+int id button_watch_list 0x7f0801e9
 int id cache_measures 0x7f080065
 int id cancel_button 0x7f080066
 int id center 0x7f080067
@@ -2569,6 +2588,8 @@ int id clockwise 0x7f08007a
 int id collapseActionView 0x7f08007b
 int id compress 0x7f08007c
 int id confirm_button 0x7f08007d
+int id constLayout_profile 0x7f0801ea
+int id constLayout_profile_user 0x7f0801eb
 int id container 0x7f08007e
 int id content 0x7f08007f
 int id contentPanel 0x7f080080
@@ -2686,8 +2707,10 @@ int id leftToRight 0x7f0800ef
 int id line1 0x7f0800f0
 int id line3 0x7f0800f1
 int id linear 0x7f0800f2
+int id linearLayout_profile 0x7f0801ec
 int id listMode 0x7f0800f3
 int id list_item 0x7f0800f4
+int id llout_allow_deal 0x7f0801ed
 int id llout_bottom_menu_bar 0x7f0800f5
 int id llout_chat 0x7f0800f6
 int id llout_home 0x7f0800f7
@@ -2695,6 +2718,9 @@ int id llout_my_carrot 0x7f0800f8
 int id llout_nearby 0x7f0800f9
 int id llout_start_login 0x7f0800fa
 int id llout_town_life 0x7f0800fb
+int id llout_town_life_article 0x7f0801ee
+int id llout_town_life_coupon 0x7f0801ef
+int id llout_town_life_shop 0x7f0801f0
 int id llout_your_carrot_market 0x7f0800fc
 int id logo 0x7f0800fd
 int id masked 0x7f0800fe
@@ -2790,6 +2816,7 @@ int id radio 0x7f080157
 int id ratio 0x7f080158
 int id rectangles 0x7f080159
 int id recycler_chat 0x7f08015a
+int id relLayout_category 0x7f0801f1
 int id reverseSawtooth 0x7f08015b
 int id right 0x7f08015c
 int id rightToLeft 0x7f08015d
@@ -2878,6 +2905,7 @@ int id textSpacerNoTitle 0x7f0801af
 int id textStart 0x7f0801b0
 int id textTop 0x7f0801b1
 int id textView_chat_list 0x7f0801b2
+int id textView_my_carrot 0x7f0801f2
 int id text_chat_indicator 0x7f0801b3
 int id text_input_end_icon 0x7f0801b4
 int id text_input_error_icon 0x7f0801b5
@@ -2906,6 +2934,7 @@ int id transition_scene_layoutid_cache 0x7f0801cb
 int id transition_transform 0x7f0801cc
 int id triangle 0x7f0801cd
 int id tv_login 0x7f0801ce
+int id tv_money_char 0x7f0801f3
 int id unchecked 0x7f0801cf
 int id uniform 0x7f0801d0
 int id unlabeled 0x7f0801d1
@@ -3018,6 +3047,7 @@ int layout abc_tooltip 0x7f0b001b
 int layout activity_login 0x7f0b001c
 int layout activity_main 0x7f0b001d
 int layout activity_register 0x7f0b001e
+int layout activity_sale 0x7f0b0081
 int layout activity_search_location 0x7f0b001f
 int layout activity_start 0x7f0b0020
 int layout chat_layout 0x7f0b0021

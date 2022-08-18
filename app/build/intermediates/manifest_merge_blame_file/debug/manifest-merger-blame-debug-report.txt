@@ -11,7 +11,7 @@
 9-->C:\Users\njsha\AndroidStudioProjects\daangn-clonecoding-android\app\src\main\AndroidManifest.xml
 10
 11    <application
-11-->C:\Users\njsha\AndroidStudioProjects\daangn-clonecoding-android\app\src\main\AndroidManifest.xml:6:5-37:19
+11-->C:\Users\njsha\AndroidStudioProjects\daangn-clonecoding-android\app\src\main\AndroidManifest.xml:6:5-39:19
 12        android:allowBackup="true"
 12-->C:\Users\njsha\AndroidStudioProjects\daangn-clonecoding-android\app\src\main\AndroidManifest.xml:7:9-35
 13        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
@@ -35,68 +35,73 @@
 23-->C:\Users\njsha\AndroidStudioProjects\daangn-clonecoding-android\app\src\main\AndroidManifest.xml:14:9-63
 24        <activity
 24-->C:\Users\njsha\AndroidStudioProjects\daangn-clonecoding-android\app\src\main\AndroidManifest.xml:16:9-18:40
-25            android:name="com.example.carrotmarket_cloneproject.MainActivity"
+25            android:name="com.example.carrotmarket_cloneproject.SaleActivity"
 25-->C:\Users\njsha\AndroidStudioProjects\daangn-clonecoding-android\app\src\main\AndroidManifest.xml:17:13-41
 26            android:exported="false" />
 26-->C:\Users\njsha\AndroidStudioProjects\daangn-clonecoding-android\app\src\main\AndroidManifest.xml:18:13-37
 27        <activity
 27-->C:\Users\njsha\AndroidStudioProjects\daangn-clonecoding-android\app\src\main\AndroidManifest.xml:19:9-21:40
-28            android:name="com.example.carrotmarket_cloneproject.SearchLocationActivity"
-28-->C:\Users\njsha\AndroidStudioProjects\daangn-clonecoding-android\app\src\main\AndroidManifest.xml:20:13-51
+28            android:name="com.example.carrotmarket_cloneproject.MainActivity"
+28-->C:\Users\njsha\AndroidStudioProjects\daangn-clonecoding-android\app\src\main\AndroidManifest.xml:20:13-41
 29            android:exported="false" />
 29-->C:\Users\njsha\AndroidStudioProjects\daangn-clonecoding-android\app\src\main\AndroidManifest.xml:21:13-37
 30        <activity
-30-->C:\Users\njsha\AndroidStudioProjects\daangn-clonecoding-android\app\src\main\AndroidManifest.xml:22:9-30:20
-31            android:name="com.example.carrotmarket_cloneproject.StartActivity"
-31-->C:\Users\njsha\AndroidStudioProjects\daangn-clonecoding-android\app\src\main\AndroidManifest.xml:23:13-42
-32            android:exported="true" >
-32-->C:\Users\njsha\AndroidStudioProjects\daangn-clonecoding-android\app\src\main\AndroidManifest.xml:24:13-36
-33            <intent-filter>
-33-->C:\Users\njsha\AndroidStudioProjects\daangn-clonecoding-android\app\src\main\AndroidManifest.xml:25:13-29:29
-34                <action android:name="android.intent.action.MAIN" />
-34-->C:\Users\njsha\AndroidStudioProjects\daangn-clonecoding-android\app\src\main\AndroidManifest.xml:26:17-69
-34-->C:\Users\njsha\AndroidStudioProjects\daangn-clonecoding-android\app\src\main\AndroidManifest.xml:26:25-66
-35
-36                <category android:name="android.intent.category.LAUNCHER" />
-36-->C:\Users\njsha\AndroidStudioProjects\daangn-clonecoding-android\app\src\main\AndroidManifest.xml:28:17-77
-36-->C:\Users\njsha\AndroidStudioProjects\daangn-clonecoding-android\app\src\main\AndroidManifest.xml:28:27-74
-37            </intent-filter>
-38        </activity>
-39        <activity
-39-->C:\Users\njsha\AndroidStudioProjects\daangn-clonecoding-android\app\src\main\AndroidManifest.xml:31:9-34:20
-40            android:name="com.example.carrotmarket_cloneproject.LoginActivity"
-40-->C:\Users\njsha\AndroidStudioProjects\daangn-clonecoding-android\app\src\main\AndroidManifest.xml:32:13-42
-41            android:exported="true" >
-41-->C:\Users\njsha\AndroidStudioProjects\daangn-clonecoding-android\app\src\main\AndroidManifest.xml:33:13-36
-42        </activity>
-43        <activity android:name="com.example.carrotmarket_cloneproject.Activity_chat" />
-43-->C:\Users\njsha\AndroidStudioProjects\daangn-clonecoding-android\app\src\main\AndroidManifest.xml:35:9-51
-43-->C:\Users\njsha\AndroidStudioProjects\daangn-clonecoding-android\app\src\main\AndroidManifest.xml:35:19-48
-44        <activity android:name="com.example.carrotmarket_cloneproject.RegisterActivity" />
-44-->C:\Users\njsha\AndroidStudioProjects\daangn-clonecoding-android\app\src\main\AndroidManifest.xml:36:9-54
-44-->C:\Users\njsha\AndroidStudioProjects\daangn-clonecoding-android\app\src\main\AndroidManifest.xml:36:19-51
-45
-46        <provider
-46-->[androidx.emoji2:emoji2:1.0.0] C:\Users\njsha\.gradle\caches\transforms-3\0db2a54fe3e61853a6995181bdd477b5\transformed\emoji2-1.0.0\AndroidManifest.xml:26:9-34:20
-47            android:name="androidx.startup.InitializationProvider"
-47-->[androidx.emoji2:emoji2:1.0.0] C:\Users\njsha\.gradle\caches\transforms-3\0db2a54fe3e61853a6995181bdd477b5\transformed\emoji2-1.0.0\AndroidManifest.xml:27:13-67
-48            android:authorities="com.example.carrotmarket_cloneproject.androidx-startup"
-48-->[androidx.emoji2:emoji2:1.0.0] C:\Users\njsha\.gradle\caches\transforms-3\0db2a54fe3e61853a6995181bdd477b5\transformed\emoji2-1.0.0\AndroidManifest.xml:28:13-68
-49            android:exported="false" >
-49-->[androidx.emoji2:emoji2:1.0.0] C:\Users\njsha\.gradle\caches\transforms-3\0db2a54fe3e61853a6995181bdd477b5\transformed\emoji2-1.0.0\AndroidManifest.xml:29:13-37
-50            <meta-data
-50-->[androidx.emoji2:emoji2:1.0.0] C:\Users\njsha\.gradle\caches\transforms-3\0db2a54fe3e61853a6995181bdd477b5\transformed\emoji2-1.0.0\AndroidManifest.xml:31:13-33:52
-51                android:name="androidx.emoji2.text.EmojiCompatInitializer"
-51-->[androidx.emoji2:emoji2:1.0.0] C:\Users\njsha\.gradle\caches\transforms-3\0db2a54fe3e61853a6995181bdd477b5\transformed\emoji2-1.0.0\AndroidManifest.xml:32:17-75
-52                android:value="androidx.startup" />
-52-->[androidx.emoji2:emoji2:1.0.0] C:\Users\njsha\.gradle\caches\transforms-3\0db2a54fe3e61853a6995181bdd477b5\transformed\emoji2-1.0.0\AndroidManifest.xml:33:17-49
-53            <meta-data
-53-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\njsha\.gradle\caches\transforms-3\429d62d1c4cfac9c73f86410faad713f\transformed\lifecycle-process-2.4.0\AndroidManifest.xml:31:13-33:52
-54                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
-54-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\njsha\.gradle\caches\transforms-3\429d62d1c4cfac9c73f86410faad713f\transformed\lifecycle-process-2.4.0\AndroidManifest.xml:32:17-78
-55                android:value="androidx.startup" />
-55-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\njsha\.gradle\caches\transforms-3\429d62d1c4cfac9c73f86410faad713f\transformed\lifecycle-process-2.4.0\AndroidManifest.xml:33:17-49
-56        </provider>
-57    </application>
-58
-59</manifest>
+30-->C:\Users\njsha\AndroidStudioProjects\daangn-clonecoding-android\app\src\main\AndroidManifest.xml:22:9-24:40
+31            android:name="com.example.carrotmarket_cloneproject.SearchLocationActivity"
+31-->C:\Users\njsha\AndroidStudioProjects\daangn-clonecoding-android\app\src\main\AndroidManifest.xml:23:13-51
+32            android:exported="false" />
+32-->C:\Users\njsha\AndroidStudioProjects\daangn-clonecoding-android\app\src\main\AndroidManifest.xml:24:13-37
+33        <activity
+33-->C:\Users\njsha\AndroidStudioProjects\daangn-clonecoding-android\app\src\main\AndroidManifest.xml:25:9-33:20
+34            android:name="com.example.carrotmarket_cloneproject.StartActivity"
+34-->C:\Users\njsha\AndroidStudioProjects\daangn-clonecoding-android\app\src\main\AndroidManifest.xml:26:13-42
+35            android:exported="true" >
+35-->C:\Users\njsha\AndroidStudioProjects\daangn-clonecoding-android\app\src\main\AndroidManifest.xml:27:13-36
+36            <intent-filter>
+36-->C:\Users\njsha\AndroidStudioProjects\daangn-clonecoding-android\app\src\main\AndroidManifest.xml:28:13-32:29
+37                <action android:name="android.intent.action.MAIN" />
+37-->C:\Users\njsha\AndroidStudioProjects\daangn-clonecoding-android\app\src\main\AndroidManifest.xml:29:17-69
+37-->C:\Users\njsha\AndroidStudioProjects\daangn-clonecoding-android\app\src\main\AndroidManifest.xml:29:25-66
+38
+39                <category android:name="android.intent.category.LAUNCHER" />
+39-->C:\Users\njsha\AndroidStudioProjects\daangn-clonecoding-android\app\src\main\AndroidManifest.xml:31:17-77
+39-->C:\Users\njsha\AndroidStudioProjects\daangn-clonecoding-android\app\src\main\AndroidManifest.xml:31:27-74
+40            </intent-filter>
+41        </activity>
+42        <activity
+42-->C:\Users\njsha\AndroidStudioProjects\daangn-clonecoding-android\app\src\main\AndroidManifest.xml:34:9-36:48
+43            android:name="com.example.carrotmarket_cloneproject.LoginActivity"
+43-->C:\Users\njsha\AndroidStudioProjects\daangn-clonecoding-android\app\src\main\AndroidManifest.xml:35:13-42
+44            android:exported="true" />
+44-->C:\Users\njsha\AndroidStudioProjects\daangn-clonecoding-android\app\src\main\AndroidManifest.xml:36:13-36
+45        <activity android:name="com.example.carrotmarket_cloneproject.Activity_chat" />
+45-->C:\Users\njsha\AndroidStudioProjects\daangn-clonecoding-android\app\src\main\AndroidManifest.xml:37:9-51
+45-->C:\Users\njsha\AndroidStudioProjects\daangn-clonecoding-android\app\src\main\AndroidManifest.xml:37:19-48
+46        <activity android:name="com.example.carrotmarket_cloneproject.RegisterActivity" />
+46-->C:\Users\njsha\AndroidStudioProjects\daangn-clonecoding-android\app\src\main\AndroidManifest.xml:38:9-54
+46-->C:\Users\njsha\AndroidStudioProjects\daangn-clonecoding-android\app\src\main\AndroidManifest.xml:38:19-51
+47
+48        <provider
+48-->[androidx.emoji2:emoji2:1.0.0] C:\Users\njsha\.gradle\caches\transforms-3\0db2a54fe3e61853a6995181bdd477b5\transformed\emoji2-1.0.0\AndroidManifest.xml:26:9-34:20
+49            android:name="androidx.startup.InitializationProvider"
+49-->[androidx.emoji2:emoji2:1.0.0] C:\Users\njsha\.gradle\caches\transforms-3\0db2a54fe3e61853a6995181bdd477b5\transformed\emoji2-1.0.0\AndroidManifest.xml:27:13-67
+50            android:authorities="com.example.carrotmarket_cloneproject.androidx-startup"
+50-->[androidx.emoji2:emoji2:1.0.0] C:\Users\njsha\.gradle\caches\transforms-3\0db2a54fe3e61853a6995181bdd477b5\transformed\emoji2-1.0.0\AndroidManifest.xml:28:13-68
+51            android:exported="false" >
+51-->[androidx.emoji2:emoji2:1.0.0] C:\Users\njsha\.gradle\caches\transforms-3\0db2a54fe3e61853a6995181bdd477b5\transformed\emoji2-1.0.0\AndroidManifest.xml:29:13-37
+52            <meta-data
+52-->[androidx.emoji2:emoji2:1.0.0] C:\Users\njsha\.gradle\caches\transforms-3\0db2a54fe3e61853a6995181bdd477b5\transformed\emoji2-1.0.0\AndroidManifest.xml:31:13-33:52
+53                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+53-->[androidx.emoji2:emoji2:1.0.0] C:\Users\njsha\.gradle\caches\transforms-3\0db2a54fe3e61853a6995181bdd477b5\transformed\emoji2-1.0.0\AndroidManifest.xml:32:17-75
+54                android:value="androidx.startup" />
+54-->[androidx.emoji2:emoji2:1.0.0] C:\Users\njsha\.gradle\caches\transforms-3\0db2a54fe3e61853a6995181bdd477b5\transformed\emoji2-1.0.0\AndroidManifest.xml:33:17-49
+55            <meta-data
+55-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\njsha\.gradle\caches\transforms-3\429d62d1c4cfac9c73f86410faad713f\transformed\lifecycle-process-2.4.0\AndroidManifest.xml:31:13-33:52
+56                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+56-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\njsha\.gradle\caches\transforms-3\429d62d1c4cfac9c73f86410faad713f\transformed\lifecycle-process-2.4.0\AndroidManifest.xml:32:17-78
+57                android:value="androidx.startup" />
+57-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\njsha\.gradle\caches\transforms-3\429d62d1c4cfac9c73f86410faad713f\transformed\lifecycle-process-2.4.0\AndroidManifest.xml:33:17-49
+58        </provider>
+59    </application>
+60
+61</manifest>
