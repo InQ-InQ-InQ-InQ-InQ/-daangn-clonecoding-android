@@ -37,10 +37,6 @@ public class LoginActivity extends AppCompatActivity {
                 String id = et_id.getText().toString();
                 String pw = et_password.getText().toString();
 
-                Intent intent = new Intent(LoginActivity.this, MainActivity.class);
-                startActivity(intent);
-                finish();
-                /*
                 Response.Listener<String> responseListener = new Response.Listener<String>() {
                     @Override
                     public void onResponse(String response) {
@@ -49,12 +45,8 @@ public class LoginActivity extends AppCompatActivity {
                             boolean success = jsonObject.getBoolean("success");
                             if (success) {
                                 Toast.makeText(getApplicationContext(), "로그인 성공", Toast.LENGTH_LONG).show();
-                                String id = jsonObject.getString("id");
-                                String pw = jsonObject.getString("pw");
 
                                 Intent intent = new Intent(LoginActivity.this, RegisterActivity.class);
-                                intent.putExtra("id", id);
-                                intent.putExtra("pw", pw);
                                 startActivity(intent);
                                 finish();
                             } else {
@@ -69,8 +61,6 @@ public class LoginActivity extends AppCompatActivity {
                 LoginRequest loginRequest = new LoginRequest(id, pw, responseListener);
                 RequestQueue queue = Volley.newRequestQueue(LoginActivity.this);
                 queue.add(loginRequest);
-
-                 */
             }
         });
 
