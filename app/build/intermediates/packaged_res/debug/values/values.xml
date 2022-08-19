@@ -25,6 +25,7 @@
     <color name="transparent">#00000000</color>
     <color name="white">#FFFFFFFF</color>
     <string name="app_name">carrotmarket_cloneproject</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
     <style name="Theme.Carrotmarket_cloneproject" parent="Theme.MaterialComponents.DayNight.NoActionBar">
         
         <item name="colorPrimary">@color/colorOrange</item>

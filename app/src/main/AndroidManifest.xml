@@ -3,8 +3,6 @@
     xmlns:tools="http://schemas.android.com/tools"
     package="com.example.carrotmarket_cloneproject">
 
-    <uses-permission android:name="android.permission.INTERNET" />
-
     <application
         android:allowBackup="true"
         android:dataExtractionRules="@xml/data_extraction_rules"
@@ -16,16 +14,28 @@
         android:theme="@style/Theme.Carrotmarket_cloneproject"
         tools:targetApi="31">
         <activity
-            android:name=".LoginActivity"
+            android:name=".SaleActivity"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="false" />
+        <activity
+            android:name=".SearchLocationActivity"
+            android:exported="false" />
+        <activity
+            android:name=".StartActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
+
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity
+            android:name=".LoginActivity"
+            android:exported="true"></activity>
         <activity android:name=".Activity_chat" />
         <activity android:name=".RegisterActivity" />
-        <activity android:name=".LoginTestActivity" />
     </application>
 
 </manifest>

@@ -34,28 +34,27 @@ public class LoginActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
 
-                String loginId = et_id.getText().toString();
-                String loginPw = et_password.getText().toString();
+                String id = et_id.getText().toString();
+                String pw = et_password.getText().toString();
 
-//                1차 로그인 액티비티 테스트코드
-//                Intent intent = new Intent(LoginActivity.this, Activity_chat.class);
-//                startActivity(intent);
-//                finish();
-
+                Intent intent = new Intent(LoginActivity.this, MainActivity.class);
+                startActivity(intent);
+                finish();
+                /*
                 Response.Listener<String> responseListener = new Response.Listener<String>() {
                     @Override
                     public void onResponse(String response) {
                         try {
                             JSONObject jsonObject = new JSONObject(response);
-                            boolean success = jsonObject.getBoolean("suc");
+                            boolean success = jsonObject.getBoolean("success");
                             if (success) {
                                 Toast.makeText(getApplicationContext(), "로그인 성공", Toast.LENGTH_LONG).show();
-//                                String loginId = jsonObject.getString("loginId");
-//                                String loginPw = jsonObject.getString("loginPw");
+                                String id = jsonObject.getString("id");
+                                String pw = jsonObject.getString("pw");
 
-                                Intent intent = new Intent(LoginActivity.this, LoginTestActivity.class);
-//                                intent.putExtra("loginId", loginId);
-//                                intent.putExtra("loginPw", loginPw);
+                                Intent intent = new Intent(LoginActivity.this, RegisterActivity.class);
+                                intent.putExtra("id", id);
+                                intent.putExtra("pw", pw);
                                 startActivity(intent);
                                 finish();
                             } else {
@@ -67,9 +66,11 @@ public class LoginActivity extends AppCompatActivity {
                         }
                     }
                 };
-                LoginRequest loginRequest = new LoginRequest(loginId, loginPw, responseListener);
+                LoginRequest loginRequest = new LoginRequest(id, pw, responseListener);
                 RequestQueue queue = Volley.newRequestQueue(LoginActivity.this);
                 queue.add(loginRequest);
+
+                 */
             }
         });
 
@@ -78,6 +79,7 @@ public class LoginActivity extends AppCompatActivity {
             public void onClick(View view) {
                 Intent intent = new Intent(LoginActivity.this, RegisterActivity.class);
                 startActivity(intent);
+                finish();
             }
         });
     }
