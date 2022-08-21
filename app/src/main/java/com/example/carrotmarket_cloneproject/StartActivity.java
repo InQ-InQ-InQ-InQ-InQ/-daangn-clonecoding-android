@@ -8,6 +8,9 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.TextView;
 
+import com.example.carrotmarket_cloneproject.sign.LoginActivity;
+import com.example.carrotmarket_cloneproject.sign.RegisterActivity;
+
 public class StartActivity extends AppCompatActivity {
 
     private Button btn_start;
@@ -23,7 +26,7 @@ public class StartActivity extends AppCompatActivity {
         btn_start.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(StartActivity.this, SearchLocationActivity.class);
+                Intent intent = new Intent(StartActivity.this, RegisterActivity.class);
                 startActivity(intent);
             }
         });

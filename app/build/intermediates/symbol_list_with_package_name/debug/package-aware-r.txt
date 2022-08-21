@@ -63,6 +63,7 @@ animator mtrl_fab_hide_motion_spec
 animator mtrl_fab_show_motion_spec
 animator mtrl_fab_transformation_sheet_collapse_spec
 animator mtrl_fab_transformation_sheet_expand_spec
+array city
 attr actionBarDivider
 attr actionBarItemBackground
 attr actionBarPopupTheme
@@ -1664,6 +1665,7 @@ color mtrl_textinput_focused_box_stroke_color
 color mtrl_textinput_hovered_box_stroke_color
 color notification_action_color_filter
 color notification_icon_bg_color
+color pantone
 color primary_dark_material_dark
 color primary_dark_material_light
 color primary_material_dark
@@ -2366,6 +2368,7 @@ drawable abc_textfield_search_material
 drawable abc_vector_test
 drawable avd_hide_password
 drawable avd_show_password
+drawable back_reverse
 drawable bell
 drawable btn_checkbox_checked_mtrl
 drawable btn_checkbox_checked_to_unchecked_mtrl_animation
@@ -2393,6 +2396,11 @@ drawable ic_mtrl_checked_circle
 drawable ic_mtrl_chip_checked_black
 drawable ic_mtrl_chip_checked_circle
 drawable ic_mtrl_chip_close_circle
+drawable ic_user_profile_placeholder
+drawable ic_write_sale
+drawable icon_sales
+drawable img
+drawable img_1
 drawable logo
 drawable logo_transparent
 drawable m3_appbar_background
@@ -2436,8 +2444,10 @@ drawable notification_template_icon_bg
 drawable notification_template_icon_low_bg
 drawable notification_tile_bg
 drawable notify_panel_notification_icon_bg
+drawable option
 drawable phone_call
 drawable plus
+drawable profile
 drawable qr_scan
 drawable send
 drawable test_custom_background
@@ -2449,6 +2459,7 @@ id BOTTOM_END
 id BOTTOM_START
 id CTRL
 id FUNCTION
+id ImageView_profile
 id META
 id NO_DEBUG
 id SHIFT
@@ -2458,6 +2469,8 @@ id SHOW_PROGRESS
 id SYM
 id TOP_END
 id TOP_START
+id TextView_userLocation
+id TextView_userName
 id accelerate
 id accessibility_action_clickable_span
 id accessibility_custom_action_0
@@ -2518,6 +2531,8 @@ id all
 id always
 id animateToEnd
 id animateToStart
+id appLayout_my_carrot
+id appLayout_sale
 id arc
 id asConfigured
 id async
@@ -2533,9 +2548,9 @@ id blocking
 id bottom
 id bounce
 id btn_login
-id btn_register
 id btn_register_clear
 id btn_start
+id btn_test
 id buttonPanel
 id button_QR
 id button_back
@@ -2543,8 +2558,13 @@ id button_bell
 id button_call
 id button_chat_menu
 id button_chat_send
+id button_complete
 id button_nickname
+id button_option
 id button_plus
+id button_purchase_list
+id button_sales_list
+id button_watch_list
 id cache_measures
 id cancel_button
 id center
@@ -2570,6 +2590,8 @@ id clockwise
 id collapseActionView
 id compress
 id confirm_button
+id constLayout_profile
+id constLayout_profile_user
 id container
 id content
 id contentPanel
@@ -2627,6 +2649,7 @@ id et_nickname_clear
 id et_password
 id et_password_clear
 id et_phone_clear
+id et_town
 id exitUntilCollapsed
 id expand_activities_button
 id expanded_menu
@@ -2687,8 +2710,10 @@ id leftToRight
 id line1
 id line3
 id linear
+id linearLayout_profile
 id listMode
 id list_item
+id llout_allow_deal
 id llout_bottom_menu_bar
 id llout_chat
 id llout_home
@@ -2696,6 +2721,9 @@ id llout_my_carrot
 id llout_nearby
 id llout_start_login
 id llout_town_life
+id llout_town_life_article
+id llout_town_life_coupon
+id llout_town_life_shop
 id llout_your_carrot_market
 id logo
 id masked
@@ -2791,6 +2819,7 @@ id radio
 id ratio
 id rectangles
 id recycler_chat
+id relLayout_category
 id reverseSawtooth
 id right
 id rightToLeft
@@ -2834,6 +2863,7 @@ id snap
 id snapMargins
 id spacer
 id special_effects_controller_view_tag
+id spinner_city
 id spline
 id split_action_bar
 id spread
@@ -2878,7 +2908,15 @@ id textSpacerNoButtons
 id textSpacerNoTitle
 id textStart
 id textTop
+id textView
+id textView2
+id textView3
+id textView4
+id textView5
+id textView6
+id textView7
 id textView_chat_list
+id textView_my_carrot
 id text_chat_indicator
 id text_input_end_icon
 id text_input_error_icon
@@ -2907,6 +2945,7 @@ id transition_scene_layoutid_cache
 id transition_transform
 id triangle
 id tv_login
+id tv_money_char
 id unchecked
 id uniform
 id unlabeled
@@ -3017,8 +3056,10 @@ layout abc_search_view
 layout abc_select_dialog_material
 layout abc_tooltip
 layout activity_login
+layout activity_login_test
 layout activity_main
 layout activity_register
+layout activity_sale
 layout activity_search_location
 layout activity_start
 layout chat_layout
@@ -3773,6 +3814,9 @@ style Theme_AppCompat_Light_DialogWhenLarge
 style Theme_AppCompat_Light_NoActionBar
 style Theme_AppCompat_NoActionBar
 style Theme_Carrotmarket_cloneproject
+style Theme_Carrotmarket_cloneproject_AppBarOverlay
+style Theme_Carrotmarket_cloneproject_NoActionBar
+style Theme_Carrotmarket_cloneproject_PopupOverlay
 style Theme_Design
 style Theme_Design_BottomSheetDialog
 style Theme_Design_Light

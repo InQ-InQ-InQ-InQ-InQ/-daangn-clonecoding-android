@@ -1,4 +1,4 @@
-package com.example.carrotmarket_cloneproject;
+package com.example.carrotmarket_cloneproject.sign;
 
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -7,6 +7,9 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 import android.widget.TextView;
+
+import com.example.carrotmarket_cloneproject.chat.Activity_chat;
+import com.example.carrotmarket_cloneproject.R;
 
 public class LoginTestActivity extends AppCompatActivity {
 /*

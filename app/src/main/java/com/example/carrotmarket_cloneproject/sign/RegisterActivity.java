@@ -1,4 +1,4 @@
-package com.example.carrotmarket_cloneproject;
+package com.example.carrotmarket_cloneproject.sign;
 
 import android.content.Intent;
 import android.os.Bundle;
@@ -16,6 +16,7 @@ import com.android.volley.Response;
 
 import androidx.appcompat.app.AppCompatActivity;
 import com.android.volley.toolbox.Volley;
+import com.example.carrotmarket_cloneproject.R;
 
 import org.json.JSONException;
 import org.json.JSONObject;

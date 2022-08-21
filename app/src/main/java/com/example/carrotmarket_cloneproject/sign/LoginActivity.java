@@ -1,4 +1,4 @@
-package com.example.carrotmarket_cloneproject;
+package com.example.carrotmarket_cloneproject.sign;
 
 import android.content.Intent;
 import android.os.Bundle;
@@ -12,6 +12,8 @@ import androidx.appcompat.app.AppCompatActivity;
 import com.android.volley.RequestQueue;
 import com.android.volley.Response;
 import com.android.volley.toolbox.Volley;
+import com.example.carrotmarket_cloneproject.MainActivity;
+import com.example.carrotmarket_cloneproject.R;
 
 import org.json.JSONException;
 import org.json.JSONObject;
@@ -19,7 +21,7 @@ import org.json.JSONObject;
 public class LoginActivity extends AppCompatActivity {
 
     EditText et_id, et_password;
-    Button btn_login, btn_register;
+    Button btn_login;
 
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -28,7 +30,7 @@ public class LoginActivity extends AppCompatActivity {
         et_id = findViewById(R.id.et_id);
         et_password = findViewById(R.id.et_password);
         btn_login = findViewById(R.id.btn_login);
-        btn_register = findViewById(R.id.btn_register);
+
 
         btn_login.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -61,15 +63,6 @@ public class LoginActivity extends AppCompatActivity {
                 LoginRequest loginRequest = new LoginRequest(id, pw, responseListener);
                 RequestQueue queue = Volley.newRequestQueue(LoginActivity.this);
                 queue.add(loginRequest);
-            }
-        });
-
-        btn_register.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                Intent intent = new Intent(LoginActivity.this, RegisterActivity.class);
-                startActivity(intent);
-                finish();
             }
         });
     }
