@@ -1,0 +1,26 @@
+[
+    {
+        "merged": "com.example.carrotmarket_cloneproject.app-mergeDebugResources-28:/layout/activity_register.xml",
+        "source": "com.example.carrotmarket_cloneproject.app-main-31:/layout/activity_register.xml"
+    },
+    {
+        "merged": "C:\\Users\\hath8\\.gradle\\daemon\\7.3.3\\com.example.carrotmarket_cloneproject.app-mergeDebugResources-28:\\layout\\fragment_chat.xml",
+        "source": "C:\\Users\\hath8\\.gradle\\daemon\\7.3.3\\com.example.carrotmarket_cloneproject.app-main-31:\\layout\\fragment_chat.xml"
+    },
+    {
+        "merged": "C:\\Users\\hath8\\.gradle\\daemon\\7.3.3\\com.example.carrotmarket_cloneproject.app-mergeDebugResources-28:\\layout\\chat_layout.xml",
+        "source": "C:\\Users\\hath8\\.gradle\\daemon\\7.3.3\\com.example.carrotmarket_cloneproject.app-main-31:\\layout\\chat_layout.xml"
+    },
+    {
+        "merged": "C:\\Users\\hath8\\.gradle\\daemon\\7.3.3\\com.example.carrotmarket_cloneproject.app-mergeDebugResources-28:\\layout\\activity_login_test.xml",
+        "source": "C:\\Users\\hath8\\.gradle\\daemon\\7.3.3\\com.example.carrotmarket_cloneproject.app-main-31:\\layout\\activity_login_test.xml"
+    },
+    {
+        "merged": "C:\\Users\\hath8\\.gradle\\daemon\\7.3.3\\com.example.carrotmarket_cloneproject.app-mergeDebugResources-28:\\layout\\activity_login.xml",
+        "source": "C:\\Users\\hath8\\.gradle\\daemon\\7.3.3\\com.example.carrotmarket_cloneproject.app-main-31:\\layout\\activity_login.xml"
+    },
+    {
+        "merged": "C:\\Users\\hath8\\.gradle\\daemon\\7.3.3\\com.example.carrotmarket_cloneproject.app-mergeDebugResources-28:\\layout\\activity_register.xml",
+        "source": "C:\\Users\\hath8\\.gradle\\daemon\\7.3.3\\com.example.carrotmarket_cloneproject.app-main-31:\\layout\\activity_register.xml"
+    }
+]

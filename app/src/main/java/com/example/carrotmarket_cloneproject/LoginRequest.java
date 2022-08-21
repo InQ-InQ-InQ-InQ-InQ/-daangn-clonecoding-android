@@ -10,15 +10,15 @@ import java.util.HashMap;
 import java.util.Map;
 
 public class LoginRequest extends StringRequest {
-    final static private String URL = "서버 URL";
+    final static private String URL = "https://d3b1-210-103-3-198.ngrok.io/login";
     private Map<String, String> map;
 
-    public LoginRequest(String id, String pw, Response.Listener<String> listener) {
+    public LoginRequest(String loginId, String loginPw, Response.Listener<String> listener) {
         super(Method.POST, URL, listener, null);
 
         map = new HashMap<>();
-        map.put("id", id);
-        map.put("pw", pw);
+        map.put("loginId", loginId);
+        map.put("loginPw", loginPw);
     }
 
     @Nullable
