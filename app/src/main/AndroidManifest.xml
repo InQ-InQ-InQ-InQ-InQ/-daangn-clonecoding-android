@@ -14,7 +14,7 @@
         android:theme="@style/Theme.Carrotmarket_cloneproject"
         tools:targetApi="31">
         <activity
-            android:name=".SaleActivity"
+            android:name=".PostingActivity"
             android:exported="false" />
         <activity
             android:name=".MainActivity"
@@ -37,5 +37,6 @@
         <activity android:name=".Activity_chat" />
         <activity android:name=".RegisterActivity" />
     </application>
-
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
 </manifest>

@@ -2,11 +2,13 @@ package com.example.carrotmarket_cloneproject;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
-import android.widget.Switch;
 
 public class MainActivity extends AppCompatActivity {
+
+    private static final String TAG = "MainActivity";
 
     private HomeFragment homeFragment;
     private TownLifeFragment townLifeFragment;
@@ -21,12 +23,15 @@ public class MainActivity extends AppCompatActivity {
         initComponent();
 
 
+
     }
 
     public void fragmentOnClick(View view) {
         switch (view.getId()) {
             case R.id.llout_home:
-                getSupportFragmentManager().beginTransaction().replace(R.id.flout_container, homeFragment).commit();
+//                getSupportFragmentManager().beginTransaction().replace(R.id.flout_container, homeFragment).commit();
+                Intent intent = new Intent(MainActivity.this, PostingActivity.class);
+                startActivity(intent);
                 break;
             case R.id.llout_town_life:
                 getSupportFragmentManager().beginTransaction().replace(R.id.flout_container, townLifeFragment).commit();

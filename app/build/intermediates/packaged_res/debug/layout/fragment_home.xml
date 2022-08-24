@@ -16,4 +16,12 @@
         android:layout_height="1dp"
         android:background="@color/colorGray"/>
 
+    <Button
+        android:id="@+id/button_sale"
+        android:layout_marginTop="3px"
+        android:layout_gravity="center"
+        android:text="sale"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
 </LinearLayout>

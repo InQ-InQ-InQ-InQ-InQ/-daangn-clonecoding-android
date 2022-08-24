@@ -8,6 +8,9 @@
         android:minSdkVersion="30"
         android:targetSdkVersion="32" />
 
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
     <application
         android:allowBackup="true"
         android:appComponentFactory="androidx.core.app.CoreComponentFactory"
@@ -22,7 +25,7 @@
         android:testOnly="true"
         android:theme="@style/Theme.Carrotmarket_cloneproject" >
         <activity
-            android:name="com.example.carrotmarket_cloneproject.SaleActivity"
+            android:name="com.example.carrotmarket_cloneproject.PostingActivity"
             android:exported="false" />
         <activity
             android:name="com.example.carrotmarket_cloneproject.MainActivity"

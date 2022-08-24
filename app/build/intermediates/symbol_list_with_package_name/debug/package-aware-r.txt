@@ -2458,6 +2458,7 @@ id BOTTOM_END
 id BOTTOM_START
 id CTRL
 id FUNCTION
+id ImageView_gallery
 id ImageView_profile
 id META
 id NO_DEBUG
@@ -2562,6 +2563,7 @@ id button_nickname
 id button_option
 id button_plus
 id button_purchase_list
+id button_sale
 id button_sales_list
 id button_watch_list
 id cache_measures
@@ -2670,6 +2672,7 @@ id fragment_container_view_tag
 id fullscreen_header
 id ghost_view
 id ghost_view_holder
+id glide_custom_view_target_tag
 id gone
 id graph
 id graph_wrap
@@ -2688,6 +2691,7 @@ id ifRoom
 id ignore
 id ignoreRequest
 id image
+id imageView_item
 id info
 id invisible
 id inward
@@ -2816,6 +2820,7 @@ id progress_horizontal
 id radio
 id ratio
 id rectangles
+id recyclerView_image
 id recycler_chat
 id relLayout_category
 id reverseSawtooth
@@ -3121,6 +3126,7 @@ layout mtrl_picker_header_title_text
 layout mtrl_picker_header_toggle
 layout mtrl_picker_text_input_date
 layout mtrl_picker_text_input_date_range
+layout multi_image_item
 layout notification_action
 layout notification_action_tombstone
 layout notification_template_custom_big

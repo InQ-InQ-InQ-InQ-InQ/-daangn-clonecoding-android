@@ -35,6 +35,7 @@ drawable plus
 drawable profile
 drawable qr_scan
 drawable send
+id ImageView_gallery
 id ImageView_profile
 id TextView_userLocation
 id TextView_userName
@@ -55,6 +56,7 @@ id button_nickname
 id button_option
 id button_plus
 id button_purchase_list
+id button_sale
 id button_sales_list
 id button_watch_list
 id constLayout_profile
@@ -68,6 +70,7 @@ id et_password
 id et_password_clear
 id et_phone_clear
 id flout_container
+id imageView_item
 id layout_chat_chatbox
 id layout_group_chat
 id linearLayout_profile
@@ -84,6 +87,7 @@ id llout_town_life_coupon
 id llout_town_life_shop
 id llout_your_carrot_market
 id logo
+id recyclerView_image
 id recycler_chat
 id relLayout_category
 id textView_chat_list
@@ -105,6 +109,7 @@ layout fragment_home
 layout fragment_my_carrot
 layout fragment_nearby
 layout fragment_town_life
+layout multi_image_item
 mipmap ic_launcher
 mipmap ic_launcher_round
 string app_name
