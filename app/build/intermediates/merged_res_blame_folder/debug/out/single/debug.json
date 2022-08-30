@@ -4,12 +4,12 @@
         "source": "C:\\Users\\njsha\\.gradle\\daemon\\7.3.3\\com.example.carrotmarket_cloneproject.app-main-28:\\layout\\activity_search_location.xml"
     },
     {
-        "merged": "C:\\Users\\njsha\\.gradle\\daemon\\7.3.3\\com.example.carrotmarket_cloneproject.app-merged_res-26:\\layout_activity_register.xml.flat",
-        "source": "C:\\Users\\njsha\\.gradle\\daemon\\7.3.3\\com.example.carrotmarket_cloneproject.app-main-28:\\layout\\activity_register.xml"
-    },
-    {
         "merged": "C:\\Users\\njsha\\.gradle\\daemon\\7.3.3\\com.example.carrotmarket_cloneproject.app-merged_res-26:\\mipmap-mdpi_ic_launcher.webp.flat",
         "source": "C:\\Users\\njsha\\.gradle\\daemon\\7.3.3\\com.example.carrotmarket_cloneproject.app-main-28:\\mipmap-mdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\njsha\\.gradle\\daemon\\7.3.3\\com.example.carrotmarket_cloneproject.app-merged_res-26:\\layout_activity_register.xml.flat",
+        "source": "C:\\Users\\njsha\\.gradle\\daemon\\7.3.3\\com.example.carrotmarket_cloneproject.app-main-28:\\layout\\activity_register.xml"
     },
     {
         "merged": "C:\\Users\\njsha\\.gradle\\daemon\\7.3.3\\com.example.carrotmarket_cloneproject.app-merged_res-26:\\drawable-v24_qr_scan.png.flat",
@@ -50,10 +50,6 @@
     {
         "merged": "C:\\Users\\njsha\\.gradle\\daemon\\7.3.3\\com.example.carrotmarket_cloneproject.app-merged_res-26:\\mipmap-hdpi_ic_launcher.webp.flat",
         "source": "C:\\Users\\njsha\\.gradle\\daemon\\7.3.3\\com.example.carrotmarket_cloneproject.app-main-28:\\mipmap-hdpi\\ic_launcher.webp"
-    },
-    {
-        "merged": "com.example.carrotmarket_cloneproject.app-merged_res-26:/layout_activity_sale.xml.flat",
-        "source": "com.example.carrotmarket_cloneproject.app-main-28:/layout/activity_sale.xml"
     },
     {
         "merged": "C:\\Users\\njsha\\.gradle\\daemon\\7.3.3\\com.example.carrotmarket_cloneproject.app-merged_res-26:\\layout_fragment_town_life.xml.flat",
@@ -158,6 +154,10 @@
     {
         "merged": "C:\\Users\\njsha\\.gradle\\daemon\\7.3.3\\com.example.carrotmarket_cloneproject.app-merged_res-26:\\drawable_img.png.flat",
         "source": "C:\\Users\\njsha\\.gradle\\daemon\\7.3.3\\com.example.carrotmarket_cloneproject.app-main-28:\\drawable\\img.png"
+    },
+    {
+        "merged": "com.example.carrotmarket_cloneproject.app-merged_res-26:/layout_activity_login.xml.flat",
+        "source": "com.example.carrotmarket_cloneproject.app-main-28:/layout/activity_login.xml"
     },
     {
         "merged": "C:\\Users\\njsha\\.gradle\\daemon\\7.3.3\\com.example.carrotmarket_cloneproject.app-merged_res-26:\\mipmap-mdpi_ic_launcher_round.webp.flat",

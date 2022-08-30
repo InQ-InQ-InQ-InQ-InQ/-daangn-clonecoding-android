@@ -1,9 +1,5 @@
 package com.example.carrotmarket_cloneproject;
 
-import androidx.appcompat.app.AppCompatActivity;
-import androidx.recyclerview.widget.LinearLayoutManager;
-import androidx.recyclerview.widget.RecyclerView;
-
 import android.content.ClipData;
 import android.content.Intent;
 import android.net.Uri;
@@ -15,7 +11,22 @@ import android.widget.Button;
 import android.widget.ImageView;
 import android.widget.Toast;
 
+import androidx.appcompat.app.AppCompatActivity;
+import androidx.recyclerview.widget.LinearLayoutManager;
+import androidx.recyclerview.widget.RecyclerView;
+
+import java.io.File;
 import java.util.ArrayList;
+import java.util.HashMap;
+import java.util.List;
+import java.util.Map;
+
+import okhttp3.MediaType;
+import okhttp3.MultipartBody;
+import okhttp3.RequestBody;
+import retrofit2.Call;
+import retrofit2.Callback;
+import retrofit2.Response;
 
 public class PostingActivity extends AppCompatActivity {
 
@@ -34,35 +45,48 @@ public class PostingActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_sale);
 
+        button_complete = (Button) findViewById(R.id.button_complete);
+        button_complete.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                List<MultipartBody.Part> imageList = new ArrayList<>();
+                for(Uri u: uriList) {
+                    String path = u.getPath();
+                    File file = new File(path);
+                    RequestBody requestFile =
+                            RequestBody.create(MediaType.parse("multipart/form-data"), file);
+                    MultipartBody.Part postingImage =
+                            MultipartBody.Part.createFormData("file[]", path, requestFile);
+                    imageList.add(postingImage);
+                }
+                Map<String, RequestBody> map = new HashMap<>();
+                RequestBody act = RequestBody.create(MediaType.parse("tet/plain"), "upload");
+                map.put("act", act);
+                RetrofitAPI retrofit = RetrofitClient.getInstance().create(RetrofitAPI.class);
+                final Call<PostingResponse> posting = retrofit.postingRequest(map, imageList);
+                posting.enqueue(new Callback<PostingResponse>() {
+                    @Override
+                    public void onResponse(Call<PostingResponse> call, Response<PostingResponse> response) {
+                        Log.e(TAG, "SUCCESS");
+                    }
+
+                    @Override
+                    public void onFailure(Call<PostingResponse> call, Throwable t) {
+                        t.printStackTrace();
+                    }
+                });
+            }
+        });
+
         // BEGIN_INCLUDE(initialized recyclerView)
         recyclerView = (RecyclerView) findViewById(R.id.recyclerView_image);
 
-        button_complete = (Button) findViewById(R.id.button_complete);
-//        button_complete.setOnClickListener(new View.OnClickListener() {
-//            @Override
-//            public void onClick(View v) {
-//                RequestBody requestFile = RequestBody.create(MediaType.parse("multipart/form-data"), imageFile);
-//                MultipartBody.Part body = MultipartBody.Part.createFormData("uploaded_file", imageFileName, requestFile);
-//                RetrofitAPI retrofitAPI=RetrofitClient.getInstance().create(RetrofitAPI.class);
-//                Call<String> call=retrofitAPI.getUploadArticleRequest(body);
-//                call.enqueue(new Callback<String>() {
-//                    @Override
-//                    public void onResponse(Call<String> call, Response<String> response) {
-//                        Log.e("uploadArticle", "SUCCESS : ");
-//                    }
-//
-//                    @Override
-//                    public void onFailure(Call<String> call, Throwable t) {
-//                        Log.e("uploadArticle", "ERROR : " + t.getMessage());
-//                    }
-//                });
-//            }
-//        });
+
+
         uriList = new ArrayList<>();
         customAdapter = new CustomAdapter(uriList, getApplicationContext());
         recyclerView.setAdapter(customAdapter);
         // END_INCLUDE(initializeRecyclerView)
-
         recyclerView.setLayoutManager(new LinearLayoutManager(this, LinearLayoutManager.HORIZONTAL, true));
 
         imageView_gallery = (ImageView) findViewById(R.id.ImageView_gallery);

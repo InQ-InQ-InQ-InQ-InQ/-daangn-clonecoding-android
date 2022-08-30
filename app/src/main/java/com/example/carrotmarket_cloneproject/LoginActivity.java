@@ -34,43 +34,49 @@ public class LoginActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
 
-                String id = et_id.getText().toString();
-                String pw = et_password.getText().toString();
+                String id = et_id.getText().toString().trim();
+                String pw = et_password.getText().toString().trim();
 
-                Intent intent = new Intent(LoginActivity.this, MainActivity.class);
-                startActivity(intent);
-                finish();
-                /*
-                Response.Listener<String> responseListener = new Response.Listener<String>() {
-                    @Override
-                    public void onResponse(String response) {
-                        try {
-                            JSONObject jsonObject = new JSONObject(response);
-                            boolean success = jsonObject.getBoolean("success");
-                            if (success) {
-                                Toast.makeText(getApplicationContext(), "로그인 성공", Toast.LENGTH_LONG).show();
-                                String id = jsonObject.getString("id");
-                                String pw = jsonObject.getString("pw");
+                if(id.isEmpty()) {
+                    Toast.makeText(getApplicationContext(), "아이디를 입력하세요.", Toast.LENGTH_SHORT).show();
+                }
+                else if(pw.isEmpty()) {
+                    Toast.makeText(getApplicationContext(), "패스워드드를 입력하세요.", Toast.LENGTH_SHORT).show();
+                }
+                else {
+                    Intent intent = new Intent(LoginActivity.this, MainActivity.class);
+                    startActivity(intent);
+                    finish();
 
-                                Intent intent = new Intent(LoginActivity.this, RegisterActivity.class);
-                                intent.putExtra("id", id);
-                                intent.putExtra("pw", pw);
-                                startActivity(intent);
-                                finish();
-                            } else {
-                                Toast.makeText(getApplicationContext(), "로그인 실패", Toast.LENGTH_LONG).show();
-                                return;
+                    Response.Listener<String> responseListener = new Response.Listener<String>() {
+                        @Override
+                        public void onResponse(String response) {
+                            try {
+                                JSONObject jsonObject = new JSONObject(response);
+                                boolean success = jsonObject.getBoolean("success");
+                                if (success) {
+                                    Toast.makeText(getApplicationContext(), "로그인 성공", Toast.LENGTH_LONG).show();
+                                    String id = jsonObject.getString("id");
+                                    String pw = jsonObject.getString("pw");
+
+                                    Intent intent = new Intent(LoginActivity.this, RegisterActivity.class);
+                                    intent.putExtra("id", id);
+                                    intent.putExtra("pw", pw);
+                                    startActivity(intent);
+                                    finish();
+                                } else {
+                                    Toast.makeText(getApplicationContext(), "로그인 실패", Toast.LENGTH_LONG).show();
+                                    return;
+                                }
+                            } catch (JSONException e) {
+                                e.printStackTrace();
                             }
-                        } catch (JSONException e) {
-                            e.printStackTrace();
                         }
-                    }
-                };
-                LoginRequest loginRequest = new LoginRequest(id, pw, responseListener);
-                RequestQueue queue = Volley.newRequestQueue(LoginActivity.this);
-                queue.add(loginRequest);
-
-                 */
+                    };
+                    LoginRequest loginRequest = new LoginRequest(id, pw, responseListener);
+                    RequestQueue queue = Volley.newRequestQueue(LoginActivity.this);
+                    queue.add(loginRequest);
+                }
             }
         });
 

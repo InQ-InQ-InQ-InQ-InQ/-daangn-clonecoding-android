@@ -20,8 +20,9 @@
          />
 
     <EditText
+        app:layout_constraintWidth_percent="0.7"
         android:id="@+id/et_id"
-        android:layout_width="wrap_content"
+        android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginStart="8dp"
         android:layout_marginTop="250dp"
@@ -35,8 +36,9 @@
         app:layout_constraintTop_toTopOf="@id/logo" />
 
     <EditText
+        app:layout_constraintWidth_percent="0.7"
         android:id="@+id/et_password"
-        android:layout_width="wrap_content"
+        android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginStart="8dp"
         android:layout_marginTop="24dp"

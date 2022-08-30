@@ -82,9 +82,5 @@
                 android:textColor="@color/colorOrange"
                 android:text="로그인 "/>
         </LinearLayout>
-
-
-
     </androidx.constraintlayout.widget.ConstraintLayout>
-
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -11,14 +11,14 @@
 9-->C:\Users\njsha\AndroidStudioProjects\daangn-clonecoding-android\app\src\main\AndroidManifest.xml
 10
 11    <uses-permission android:name="android.permission.INTERNET" />
-11-->C:\Users\njsha\AndroidStudioProjects\daangn-clonecoding-android\app\src\main\AndroidManifest.xml:40:5-67
-11-->C:\Users\njsha\AndroidStudioProjects\daangn-clonecoding-android\app\src\main\AndroidManifest.xml:40:22-64
+11-->C:\Users\njsha\AndroidStudioProjects\daangn-clonecoding-android\app\src\main\AndroidManifest.xml:41:5-67
+11-->C:\Users\njsha\AndroidStudioProjects\daangn-clonecoding-android\app\src\main\AndroidManifest.xml:41:22-64
 12    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
-12-->C:\Users\njsha\AndroidStudioProjects\daangn-clonecoding-android\app\src\main\AndroidManifest.xml:41:5-80
-12-->C:\Users\njsha\AndroidStudioProjects\daangn-clonecoding-android\app\src\main\AndroidManifest.xml:41:22-77
+12-->C:\Users\njsha\AndroidStudioProjects\daangn-clonecoding-android\app\src\main\AndroidManifest.xml:42:5-80
+12-->C:\Users\njsha\AndroidStudioProjects\daangn-clonecoding-android\app\src\main\AndroidManifest.xml:42:22-77
 13
 14    <application
-14-->C:\Users\njsha\AndroidStudioProjects\daangn-clonecoding-android\app\src\main\AndroidManifest.xml:6:5-39:19
+14-->C:\Users\njsha\AndroidStudioProjects\daangn-clonecoding-android\app\src\main\AndroidManifest.xml:6:5-40:19
 15        android:allowBackup="true"
 15-->C:\Users\njsha\AndroidStudioProjects\daangn-clonecoding-android\app\src\main\AndroidManifest.xml:7:9-35
 16        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
@@ -41,52 +41,52 @@
 26        android:theme="@style/Theme.Carrotmarket_cloneproject" >
 26-->C:\Users\njsha\AndroidStudioProjects\daangn-clonecoding-android\app\src\main\AndroidManifest.xml:14:9-63
 27        <activity
-27-->C:\Users\njsha\AndroidStudioProjects\daangn-clonecoding-android\app\src\main\AndroidManifest.xml:16:9-18:40
+27-->C:\Users\njsha\AndroidStudioProjects\daangn-clonecoding-android\app\src\main\AndroidManifest.xml:17:9-19:40
 28            android:name="com.example.carrotmarket_cloneproject.PostingActivity"
-28-->C:\Users\njsha\AndroidStudioProjects\daangn-clonecoding-android\app\src\main\AndroidManifest.xml:17:13-44
+28-->C:\Users\njsha\AndroidStudioProjects\daangn-clonecoding-android\app\src\main\AndroidManifest.xml:18:13-44
 29            android:exported="false" />
-29-->C:\Users\njsha\AndroidStudioProjects\daangn-clonecoding-android\app\src\main\AndroidManifest.xml:18:13-37
+29-->C:\Users\njsha\AndroidStudioProjects\daangn-clonecoding-android\app\src\main\AndroidManifest.xml:19:13-37
 30        <activity
-30-->C:\Users\njsha\AndroidStudioProjects\daangn-clonecoding-android\app\src\main\AndroidManifest.xml:19:9-21:40
+30-->C:\Users\njsha\AndroidStudioProjects\daangn-clonecoding-android\app\src\main\AndroidManifest.xml:20:9-22:40
 31            android:name="com.example.carrotmarket_cloneproject.MainActivity"
-31-->C:\Users\njsha\AndroidStudioProjects\daangn-clonecoding-android\app\src\main\AndroidManifest.xml:20:13-41
+31-->C:\Users\njsha\AndroidStudioProjects\daangn-clonecoding-android\app\src\main\AndroidManifest.xml:21:13-41
 32            android:exported="false" />
-32-->C:\Users\njsha\AndroidStudioProjects\daangn-clonecoding-android\app\src\main\AndroidManifest.xml:21:13-37
+32-->C:\Users\njsha\AndroidStudioProjects\daangn-clonecoding-android\app\src\main\AndroidManifest.xml:22:13-37
 33        <activity
-33-->C:\Users\njsha\AndroidStudioProjects\daangn-clonecoding-android\app\src\main\AndroidManifest.xml:22:9-24:40
+33-->C:\Users\njsha\AndroidStudioProjects\daangn-clonecoding-android\app\src\main\AndroidManifest.xml:23:9-25:40
 34            android:name="com.example.carrotmarket_cloneproject.SearchLocationActivity"
-34-->C:\Users\njsha\AndroidStudioProjects\daangn-clonecoding-android\app\src\main\AndroidManifest.xml:23:13-51
+34-->C:\Users\njsha\AndroidStudioProjects\daangn-clonecoding-android\app\src\main\AndroidManifest.xml:24:13-51
 35            android:exported="false" />
-35-->C:\Users\njsha\AndroidStudioProjects\daangn-clonecoding-android\app\src\main\AndroidManifest.xml:24:13-37
+35-->C:\Users\njsha\AndroidStudioProjects\daangn-clonecoding-android\app\src\main\AndroidManifest.xml:25:13-37
 36        <activity
-36-->C:\Users\njsha\AndroidStudioProjects\daangn-clonecoding-android\app\src\main\AndroidManifest.xml:25:9-33:20
+36-->C:\Users\njsha\AndroidStudioProjects\daangn-clonecoding-android\app\src\main\AndroidManifest.xml:26:9-34:20
 37            android:name="com.example.carrotmarket_cloneproject.StartActivity"
-37-->C:\Users\njsha\AndroidStudioProjects\daangn-clonecoding-android\app\src\main\AndroidManifest.xml:26:13-42
+37-->C:\Users\njsha\AndroidStudioProjects\daangn-clonecoding-android\app\src\main\AndroidManifest.xml:27:13-42
 38            android:exported="true" >
-38-->C:\Users\njsha\AndroidStudioProjects\daangn-clonecoding-android\app\src\main\AndroidManifest.xml:27:13-36
+38-->C:\Users\njsha\AndroidStudioProjects\daangn-clonecoding-android\app\src\main\AndroidManifest.xml:28:13-36
 39            <intent-filter>
-39-->C:\Users\njsha\AndroidStudioProjects\daangn-clonecoding-android\app\src\main\AndroidManifest.xml:28:13-32:29
+39-->C:\Users\njsha\AndroidStudioProjects\daangn-clonecoding-android\app\src\main\AndroidManifest.xml:29:13-33:29
 40                <action android:name="android.intent.action.MAIN" />
-40-->C:\Users\njsha\AndroidStudioProjects\daangn-clonecoding-android\app\src\main\AndroidManifest.xml:29:17-69
-40-->C:\Users\njsha\AndroidStudioProjects\daangn-clonecoding-android\app\src\main\AndroidManifest.xml:29:25-66
+40-->C:\Users\njsha\AndroidStudioProjects\daangn-clonecoding-android\app\src\main\AndroidManifest.xml:30:17-69
+40-->C:\Users\njsha\AndroidStudioProjects\daangn-clonecoding-android\app\src\main\AndroidManifest.xml:30:25-66
 41
 42                <category android:name="android.intent.category.LAUNCHER" />
-42-->C:\Users\njsha\AndroidStudioProjects\daangn-clonecoding-android\app\src\main\AndroidManifest.xml:31:17-77
-42-->C:\Users\njsha\AndroidStudioProjects\daangn-clonecoding-android\app\src\main\AndroidManifest.xml:31:27-74
+42-->C:\Users\njsha\AndroidStudioProjects\daangn-clonecoding-android\app\src\main\AndroidManifest.xml:32:17-77
+42-->C:\Users\njsha\AndroidStudioProjects\daangn-clonecoding-android\app\src\main\AndroidManifest.xml:32:27-74
 43            </intent-filter>
 44        </activity>
 45        <activity
-45-->C:\Users\njsha\AndroidStudioProjects\daangn-clonecoding-android\app\src\main\AndroidManifest.xml:34:9-36:48
+45-->C:\Users\njsha\AndroidStudioProjects\daangn-clonecoding-android\app\src\main\AndroidManifest.xml:35:9-37:48
 46            android:name="com.example.carrotmarket_cloneproject.LoginActivity"
-46-->C:\Users\njsha\AndroidStudioProjects\daangn-clonecoding-android\app\src\main\AndroidManifest.xml:35:13-42
+46-->C:\Users\njsha\AndroidStudioProjects\daangn-clonecoding-android\app\src\main\AndroidManifest.xml:36:13-42
 47            android:exported="true" />
-47-->C:\Users\njsha\AndroidStudioProjects\daangn-clonecoding-android\app\src\main\AndroidManifest.xml:36:13-36
+47-->C:\Users\njsha\AndroidStudioProjects\daangn-clonecoding-android\app\src\main\AndroidManifest.xml:37:13-36
 48        <activity android:name="com.example.carrotmarket_cloneproject.Activity_chat" />
-48-->C:\Users\njsha\AndroidStudioProjects\daangn-clonecoding-android\app\src\main\AndroidManifest.xml:37:9-51
-48-->C:\Users\njsha\AndroidStudioProjects\daangn-clonecoding-android\app\src\main\AndroidManifest.xml:37:19-48
+48-->C:\Users\njsha\AndroidStudioProjects\daangn-clonecoding-android\app\src\main\AndroidManifest.xml:38:9-51
+48-->C:\Users\njsha\AndroidStudioProjects\daangn-clonecoding-android\app\src\main\AndroidManifest.xml:38:19-48
 49        <activity android:name="com.example.carrotmarket_cloneproject.RegisterActivity" />
-49-->C:\Users\njsha\AndroidStudioProjects\daangn-clonecoding-android\app\src\main\AndroidManifest.xml:38:9-54
-49-->C:\Users\njsha\AndroidStudioProjects\daangn-clonecoding-android\app\src\main\AndroidManifest.xml:38:19-51
+49-->C:\Users\njsha\AndroidStudioProjects\daangn-clonecoding-android\app\src\main\AndroidManifest.xml:39:9-54
+49-->C:\Users\njsha\AndroidStudioProjects\daangn-clonecoding-android\app\src\main\AndroidManifest.xml:39:19-51
 50
 51        <provider
 51-->[androidx.emoji2:emoji2:1.0.0] C:\Users\njsha\.gradle\caches\transforms-3\0db2a54fe3e61853a6995181bdd477b5\transformed\emoji2-1.0.0\AndroidManifest.xml:26:9-34:20

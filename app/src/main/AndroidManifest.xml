@@ -13,6 +13,7 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Carrotmarket_cloneproject"
         tools:targetApi="31">
+
         <activity
             android:name=".PostingActivity"
             android:exported="false" />
@@ -33,7 +34,7 @@
         </activity>
         <activity
             android:name=".LoginActivity"
-            android:exported="true"></activity>
+            android:exported="false"/>
         <activity android:name=".Activity_chat" />
         <activity android:name=".RegisterActivity" />
     </application>
